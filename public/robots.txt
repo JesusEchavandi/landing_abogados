@@ -1,0 +1,19 @@
+# robots.txt for Legal Studio
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /portal/
+
+# Sitemap
+Sitemap: https://legalstudio.com/sitemap.xml
+
+# Crawl-delay for better performance
+Crawl-delay: 1
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
